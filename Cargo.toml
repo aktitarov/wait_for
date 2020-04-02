@@ -1,0 +1,14 @@
+[package]
+name = "wait_for"
+authors = ["Anatoly Ktitarov <hello@ktitarov.com>"]
+description = "Wait for another service to become available"
+repository = "https://github.com/ktitaro/wait_for"
+version = "0.1.1"
+edition = "2018"
+license = "MIT"
+keywords = ["wait-for", "healthcheck"]
+categories = ["command-line-utilities",]
+exclude = ["examples"]
+
+[dependencies]
+clap = "2.33.0"

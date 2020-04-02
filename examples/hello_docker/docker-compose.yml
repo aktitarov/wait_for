@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  database:
+    image: postgres:latest
+  app:
+    build: .
+    command: sh -c 'wait_for -h database -p 5432 -- ./target/release/hello_docker 2>&1'
+    depends_on:
+      - database

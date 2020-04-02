@@ -1,0 +1,10 @@
+# IDEs
+.vscode
+.idea
+
+# MacOS
+**/.DS_Store
+
+# Rust
+/target
+**/*.rs.bk
